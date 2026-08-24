@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- ORAXIS Hex Shield Base -->
+        <path
+            android:pathData="M54,26 L76,38 L76,68 L54,82 L32,68 L32,38 Z"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00F0FF"
+            android:fillColor="#0D00F0FF" />
+            
+        <!-- Stylized Torso & Shoulders V-Taper Structure -->
+        <!-- Head / Core Node -->
+        <path
+            android:pathData="M54,34 L57,37 L54,40 L51,37 Z"
+            android:fillColor="#F59E0B" />
+            
+        <!-- Traps & Deltoids -->
+        <path
+            android:pathData="M44,42 L54,38 L64,42 L70,48 L64,52 L54,46 L44,52 L38,48 Z"
+            android:fillColor="#00F0FF" />
+            
+        <!-- Chest / Pectoral Plates -->
+        <path
+            android:pathData="M40,51 L52,48 L52,57 L41,56 Z"
+            android:fillColor="#38BDF8" />
+        <path
+            android:pathData="M68,51 L56,48 L56,57 L67,56 Z"
+            android:fillColor="#38BDF8" />
+            
+        <!-- Core / Abdominal & Oblique Taper -->
+        <path
+            android:pathData="M43,60 L54,58 L65,60 L60,72 L54,76 L48,72 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="54"
+                    android:startY="58"
+                    android:endX="54"
+                    android:endY="76"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#F59E0B" />
+                    <item android:offset="1.0" android:color="#EF4444" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Center Power Core Line -->
+        <path
+            android:pathData="M54,40 L54,76"
+            android:strokeWidth="1.5"
+            android:strokeColor="#FFFFFF" />
+    </group>
+</vector>

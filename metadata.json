@@ -1,0 +1,7 @@
+{
+  "name": "ORAXIS PHYSIC",
+  "description": "A premier personalized AI fitness operating system combining workout generation, physique goals, nutrition tracking, calisthenics mastery, progress analytics, and intelligent recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
